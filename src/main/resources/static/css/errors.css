@@ -1,0 +1,71 @@
+.bg-img-generic {
+    background-image: url('/images/generic.gif');
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.error-div {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.45);
+    vertical-align: middle;
+    color: white;
+    overflow-y: auto;
+    font-family: Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 9rem;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.bg-img-404 {
+    background-image: url('/images/404.gif');
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.bg-img-403 {
+    background-image: url('/images/403.gif');
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.error-content {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}

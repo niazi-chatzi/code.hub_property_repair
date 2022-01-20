@@ -1,0 +1,66 @@
+html, body {
+    //background-color:#202020;
+    //background-color: #3c3f41;
+    //background-color: #36393f;
+    background-color: #2f3136;
+    color: white;
+}
+
+.fixes-test {
+    padding:4px;
+    background-color:#3c3f41;
+    font-size: 1.5em;
+}
+
+.hello-title {
+    font-size: 2em;
+}
+
+.container-fluid {
+    min-height: 76vh;
+}
+
+.sidebar {
+    padding-top: 6rem;
+    min-height: 90vh!important;
+}
+
+.display-none {
+    display: none;
+}
+
+.remove-border-bottom {
+    border-bottom: none;
+}
+
+.trash-style {
+    color:#d65038;
+    transition:0.2s;
+}
+
+.trash-style:hover {
+    color: #c61919 !important;
+}
+
+.error {
+    color:red;
+}
+
+.id-num:before {
+    content: '0';
+}
+/*.fade-in:hover {*/
+/*    animation-name: fadeInOpacity;*/
+/*    animation-iteration-count: 1;*/
+/*    animation-timing-function: ease-in;*/
+/*    animation-duration: 1s;*/
+/*}*/
+
+/*@keyframes fadeInOpacity {*/
+/*    0% {*/
+/*        opacity: 0.7;*/
+/*    }*/
+/*    100% {*/
+/*        opacity: 1;*/
+/*    }*/
+/*}*/
